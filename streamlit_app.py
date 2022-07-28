@@ -2,10 +2,10 @@ import streamlit
 
 streamlit.title("my parents are preparing healthy dinner")
   
-streamlit.header ("Break Fast Menu")
-streamlit.text(" Dosa with Chicken🐔")
-streamlit.text("Idly with vada sambar🥣 ")
-streamlit.text("Puri with Kurma🥗")
+ streamlit.header('Breakfast Menu')
+streamlit.text('Omega 3 & Blueberry Oatmeal🥣')
+streamlit.text('Kale, Spinach & Rocket Smoothie🥗')
+streamlit.text('Hard-Boiled Free-Range Egg🐔')
 streamlit.text("avacado with toast 🥑🍞")
 
 streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
