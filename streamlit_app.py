@@ -7,3 +7,6 @@ streamlit.text(" Dosa with Chicken🐔")
 streamlit.text("Idly with vada sambar🥣 ")
 streamlit.text("Puri with Kurma🥗")
 streamlit.text("avacado with toast 🥑🍞")
+
+streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
+
