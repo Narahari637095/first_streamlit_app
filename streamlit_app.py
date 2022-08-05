@@ -38,9 +38,6 @@ fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 #output is the screen as table
 streamlit.dataframe(fruityvice_normalized)
 
-#dont run anything past here a while trpubleshoot
-stramlit.stop()
-
 import snowflake.connector
 from urllib.error import urlerror
 
@@ -51,4 +48,5 @@ my_data_rows = my_cur.fetchall()
 streamlit.header("The Fruit Load list contains")
 streamlit.dataframe(my_data_rows)
 
-
+#dont run anything past here a while trpubleshoot
+stramlit.stop()
