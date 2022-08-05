@@ -38,8 +38,8 @@ fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 #output is the screen as table
 streamlit.dataframe(fruityvice_normalized)
 
-#this will not work properly, but just go with it
-my.cur.execute("insert into fruit_load_list values ('from streamlit')")
+#dont run anything past here a while trpubleshoot
+stramlit.stop()
 
 import snowflake.connector
 
