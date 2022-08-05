@@ -42,6 +42,7 @@ streamlit.dataframe(fruityvice_normalized)
 stramlit.stop()
 
 import snowflake.connector
+from urllib.error import urlerror
 
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
 my_cur = my_cnx.cursor()
