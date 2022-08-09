@@ -50,3 +50,4 @@ streamlit.dataframe(my_data_rows)
 
 #dont run anything past here a while trpubleshoot
 stramlit.stop()
+
